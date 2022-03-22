@@ -20,6 +20,7 @@ header{
     position:fixed;
     top: 20px;
     right: 10px;
+    z-index: 10;
 }
 
 .container nav ul li{
@@ -53,21 +54,45 @@ header{
     height: 100vh;
     background-color: yellow;
 }
-/* .shoes{
-    position:relative;
-} */
-#first{
+
+.first-model{
     position:relative;
 }
-img{
+#prima{
     width: 654px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
-h2{
+.second-model{
+    position:relative;
+}
+#seconda{
+    width: 654px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.third-model{
+    position:relative;
+}
+#terza{
+    width: 654px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
     text-transform: uppercase;
+    font-size: 50px;
     text-align: center;
     color: yellow;
+    word-spacing: 30px;
+    padding-top: 50%;   
+}
+.third-model h1{
+    color:green;
 }
