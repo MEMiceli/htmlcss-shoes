@@ -53,12 +53,18 @@ header{
     height: 100vh;
     background-color: yellow;
 }
+/* .shoes{
+    position:relative;
+} */
+#first{
+    position:relative;
+}
 img{
     width: 654px;
-    /* position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
 }
 h2{
     text-transform: uppercase;
